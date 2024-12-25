@@ -1,4 +1,3 @@
-/* Universal Reset and Box Sizing */
 * {
     margin: 0;
     padding: 0;
@@ -27,7 +26,7 @@
   }
   
   #event h1 {
-    font-size: clamp(8rem, 10vw, 10rem);
+    font-size: clamp(8rem, 10vw, 8rem);
     color: red;
     text-shadow: 2px 2px 3px #d08a8a;
   }
@@ -91,14 +90,14 @@
   /* Media Queries for Smaller Screens */
   @media (max-width: 768px) {
     #event h1, #upcoming span {
-      font-size: clamp(6rem, 10vw, 8rem);
+      font-size: clamp(5.2rem, 8vw, 5rem);
     }
     
     #event,
     #upcoming,
     .card {
-      height: 70vh;
-      width: 80vw;
+      height: 85vh;
+      width: 55vw;
     }
   
     #upcoming p {
