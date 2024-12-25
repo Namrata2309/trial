@@ -91,14 +91,15 @@ body {
   /* Media Queries for Smaller Screens */
   @media(max-width:1200px){
     #event h1, #upcoming span {
-        font-size: clamp(5.2rem, 8vw, 5rem);
+        font-size: clamp(6rem, 10vw, 8rem);
       }
       
       #event,
       #upcoming,
       .card {
         height: 85vh;
-        width: 55vw;
+        width: 60vw;
+        max-width: 500px;
       }
     
       #upcoming p {
