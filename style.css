@@ -27,7 +27,7 @@ body {
 
 #event h1 {
   font-size: clamp(5rem, 8vw, 6rem);
-  color: red;
+  color: #fd7c37;
   text-shadow: 2px 2px 3px #d08a8a;
 }
 
@@ -43,7 +43,7 @@ body {
 
 #upcoming span {
   font-size: clamp(3rem, 7vw, 5rem);
-  color: red;
+  color: #fd7c37;
 }
 
 #upcoming p {
@@ -72,7 +72,7 @@ body {
 }
 
 .card img {
-  border: 2px solid red;
+  border: 2px solid #fd7c37;
   border-radius: 15px;
   width: 100%;
   height: 100%;
