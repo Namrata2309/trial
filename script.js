@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", () => {
         });
       },
       {
-        threshold: 0.5, // Adjusted to make the sticky effect trigger slightly earlier
+        threshold:0.9, // Adjusted to make the sticky effect trigger slightly earlier
         rootMargin: "0px 0px -10% 0px" // Handles different screen sizes better
       }
     );
